@@ -5,7 +5,7 @@ class Extracurriculars extends Component {
         return (
             <div>
                 <section className="extracurriculars">
-                    <div className="content-wrap item-details">
+                    <div className="content-wrap item-details divider">
                         <h2>Extracurricular Activities</h2>
 
                         <section>

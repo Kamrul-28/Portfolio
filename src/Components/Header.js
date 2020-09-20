@@ -1,16 +1,17 @@
 import React, {Component} from 'react';
 
 class Header extends Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
         return (
             <div>
                 <header>
                     <div className="content-wrap">
-                        <h1>Md.Kamrul Hasan</h1>
-                        <h2>Full-Stack Developer</h2>
-                        <p>Looking for a entry-level position as a Software Engineer a dynamic farm that values my
-                            technical skills and provides scope for updating my knowledge, I seek a company that will
-                            help me contribute to its development while concurrently aiding my personal growth.</p>
+                        <h1>{this.props.item.header.name}</h1>
+                        <h2>{this.props.item.header.developer}</h2>
+                        <p>{this.props.item.header.description}</p>
                     </div>
                 </header>
             </div>
