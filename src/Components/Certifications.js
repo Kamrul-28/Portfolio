@@ -26,8 +26,6 @@ class Certifications extends Component {
                             <p>Learn React  - <a href="https://scrimba.com/certificate/uBK9bqTB/glearnreact">Credential URL</a></p>
                         </section>
 
-
-
                     </div>
                 </section>
                 
