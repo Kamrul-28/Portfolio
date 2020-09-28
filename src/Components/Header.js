@@ -12,6 +12,7 @@ class Header extends Component {
                         <h1>{this.props.item.header.name}</h1>
                         <h2>{this.props.item.header.developer}</h2>
                         <p>{this.props.item.header.description}</p>
+                        <div><img src={"../"} /></div>
                     </div>
                 </header>
             </div>
