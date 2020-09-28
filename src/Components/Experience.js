@@ -16,6 +16,17 @@ class Experience extends Component {
 
                         <section class="job-item">
                             <div class="job-details">
+                                <h3>Durbin Labs Limited</h3>
+                                <p>Mentorship of Javascript and ReactJs</p>
+                                <p>Aug 2020 - Present , 2 months</p>
+                            </div>
+                            <div class="job-summary">
+                                <p>In This internship i have learned Javascript. i am learning advanced topics of reactjs now and going through a project called happiness tracker </p>
+                            </div>
+                        </section>
+
+                        <section class="job-item">
+                            <div class="job-details">
                                 <h3>{this.props.item.experience.company}</h3>
                                 <p>{this.props.item.experience.position}</p>
                                 <p>{this.props.item.experience.duration}</p>

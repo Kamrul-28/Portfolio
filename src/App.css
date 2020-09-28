@@ -78,7 +78,9 @@ header {
     color: #F7FFF7;
 }
 
-
+.image{
+    width: 200px;
+}
 /* Projects
 ------------------------------------*/
 .projects {

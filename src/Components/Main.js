@@ -22,7 +22,7 @@ class Main extends Component {
                 company:"AppStick",
                 position:"Software Developer Intern, Laravel",
                 duration:"Jan 2019-Dec 2019  , 3 months",
-                description:"In This internship i learn basics of Laravel and complete some small projects. With the help of this internship my knowledge about software development increses"
+                description:"In This internship i have learned basics of Laravel and complete some small projects. With the help of this internship my knowledge about software development increses"
             },
             education:{
                 title:"Education",
